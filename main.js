@@ -28,14 +28,23 @@
 
 // 4-masal.
 
-function number(A, B, C){
-    let D = Math.pow(B, 2) - 4 * A * C;
-    if (D > 0) {
-        console.log("2 ta yechim bor");
-    } else if (D === 0){
-        console.log("1 ta yechim bor");
-    } else{
-      console.log("qiymat 0");
-    }
-}
-number(1, -6, 9);
+// function number(A, B, C){
+//     let D = Math.pow(B, 2) - 4 * A * C;
+//     if (D > 0) {
+//         console.log("2 ta yechim bor");
+//     } else if (D === 0){
+//         console.log("1 ta yechim bor");
+//     } else{
+//       console.log("qiymat 0");
+//     }
+// }
+// number(1, -6, 9);
+
+// 5-masal.
+
+// function are(R){
+//     let S = Math.PI * R * R;
+//     return S;
+// }
+// console.log(are(5));
+
