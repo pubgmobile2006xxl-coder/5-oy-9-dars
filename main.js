@@ -89,3 +89,13 @@
 //     }
 // }
 // number(9);
+
+// 9-masal.
+
+// function sort(A, B, C){
+//     let min = Math. min(A, B, C );
+//     let max = Math. max(A, B, C);
+//     let mid = A + B + C - min -max;
+//     console.log(min, mid, max);
+// }
+// sort(48, 15, 8);
