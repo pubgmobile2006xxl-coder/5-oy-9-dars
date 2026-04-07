@@ -15,13 +15,27 @@
 
 // 3-masal.
 
-function sign(N){
-    if (N < 0) {
-        console.log("kichkina -1");
-    } else if(N > 0){
-        console.log("katta 1");
+// function sign(N){
+//     if (N < 0) {
+//         console.log("kichkina -1");
+//     } else if(N > 0){
+//         console.log("katta 1");
+//     } else{
+//         console.log("nolga teng 0");
+//     }
+// }
+// sign(0);
+
+// 4-masal.
+
+function number(A, B, C){
+    let D = Math.pow(B, 2) - 4 * A * C;
+    if (D > 0) {
+        console.log("2 ta yechim bor");
+    } else if (D === 0){
+        console.log("1 ta yechim bor");
     } else{
-        console.log("nolga teng 0");
+      console.log("qiymat 0");
     }
 }
-sign(0)
+number(1, -6, 9);
