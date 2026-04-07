@@ -48,3 +48,13 @@
 // }
 // console.log(are(5));
 
+// 6-masal.
+
+// function number(A, B){
+//     if (A > B) {
+//         console.log("qiymat 0");
+//     } else {
+//         console.log("bo'lmasa to'g'rida ");
+//     }
+// }
+// number(10, 8)
