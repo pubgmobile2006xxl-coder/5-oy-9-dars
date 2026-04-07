@@ -13,7 +13,7 @@
 // }
 // mean(12, 48);
 
-// 3-masal.
+// 3-masala.
 
 // function sign(N){
 //     if (N < 0) {
@@ -26,7 +26,7 @@
 // }
 // sign(0);
 
-// 4-masal.
+// 4-masala.
 
 // function number(A, B, C){
 //     let D = Math.pow(B, 2) - 4 * A * C;
@@ -40,7 +40,7 @@
 // }
 // number(1, -6, 9);
 
-// 5-masal.
+// 5-masala.
 
 // function are(R){
 //     let S = Math.PI * R * R;
@@ -48,7 +48,7 @@
 // }
 // console.log(are(5));
 
-// 6-masal.
+// 6-masala.
 
 // function number(A, B){
 //     if (A > B) {
@@ -59,7 +59,7 @@
 // }
 // number(10, 8)
 
-// 7-masal.
+// 7-masala.
 
 // function calc(A, B, S) {
 //     if (S === "+") {
@@ -79,7 +79,7 @@
 // console.log(calc(20, 5, "/"));
 // console.log(calc(5, 5, "^"));
 
-// 8-masal.
+// 8-masala.
 
 // function number(K){
 //     if (K % 2 === 0) {
@@ -90,7 +90,7 @@
 // }
 // number(9);
 
-// 9-masal.
+// 9-masala.
 
 // function sort(A, B, C){
 //     let min = Math. min(A, B, C );
@@ -99,3 +99,19 @@
 //     console.log(min, mid, max);
 // }
 // sort(48, 15, 8);
+
+// 10-masala.
+
+function isPowerN(K, N) {
+    if (K <= 0 || N <= 1) {
+        return false;
+    } else {
+        let m = Math.log(K) / Math.log(N);
+
+        if (Math.abs(m - Math.round(m)) < 1e-10) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
