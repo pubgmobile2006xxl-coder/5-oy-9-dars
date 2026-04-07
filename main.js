@@ -58,3 +58,23 @@
 //     }
 // }
 // number(10, 8)
+
+// 7-masal.
+
+function calc(A, B, S) {
+    if (S === "+") {
+        return A + B;
+    } else if (S === "-") {
+        return A - B;
+    } else if (S === "*") {
+        return A * B;
+    } else if (S === "/") {
+        return A / B;
+    } else {
+        return 0;
+    }
+}
+console.log(calc(10, 15, "*"));
+console.log(calc(7, 8, "+"));
+console.log(calc(20, 5, "/"));
+console.log(calc(5, 5, "^"));
